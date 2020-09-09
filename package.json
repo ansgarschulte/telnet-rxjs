@@ -26,12 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ansgarschulte/telnet-rxjs.git"
+    "url": "git+ssh://git@github.com/ansgarschulte/telnet-rxjs.git"
   },
-  "author": {
-    "name": "Eric Kidder",
-    "email": "eric@kidderberg.us"
-  },
+  "author": "Eric Kidder <eric@kidderberg.us>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ansgarschulte/telnet-rxjs/issues"
@@ -56,5 +53,8 @@
   "dependencies": {
     "rxjs": "^6.6.3",
     "rxjs-compat": "^6.6.3"
+  },
+  "directories": {
+    "example": "examples"
   }
 }
